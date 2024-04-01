@@ -1,0 +1,19 @@
+
+*{
+    background-color: aliceblue;
+}
+.inputs{
+    border-radius: 50px;
+    margin-left: 30%;
+}
+.calc{
+    display: grid;
+    margin-top: 10%;
+}
+button{
+    cursor: pointer;
+
+}
+img{
+    width: 100%;
+}

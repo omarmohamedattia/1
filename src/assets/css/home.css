@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.blogs {
+    text-align: center;
+    padding: 25px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 300px; 
+    display: grid;
+}
+
+.wael {
+    height: 400px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #2c2c2c;
+}
+
+.socond {
+    height: 400px;
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+    .container {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .blogs {
+        font-size: 15px;
+        width: auto; /* Allow flexibility in width */
+        margin-bottom: 20px; /* Add margin between items */
+    }
+
+    .wael,
+    .socond {
+        height: 250px;
+    }
+}
