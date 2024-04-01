@@ -1,6 +1,6 @@
 @import url(style.css);
 img{
-
+   width: 100%;
     border-radius: 3%;
     height: 550px;
     margin-left: 175px;
